@@ -4,9 +4,6 @@
       "websiteURL": "https://www.darkosystem.com",
       "name": "darkosystem",
       "email" : "darkosystem.info@gmail.com",
-      "help" : {
-        "online": "https://forums.adafruit.com"
-      },
       "tools": [],
       "maintainer": "Darko System Ind",
       "platforms": [
