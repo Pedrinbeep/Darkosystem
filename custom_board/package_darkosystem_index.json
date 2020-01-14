@@ -1,0 +1,58 @@
+{
+  "packages": [
+    {
+      "websiteURL": "https://www.darkosystem.com",
+      "name": "darkosystem",
+      "email" : "darkosystem.info@gmail.com",
+      "help" : {
+        "online": "https://forums.adafruit.com"
+      },
+      "tools": [],
+      "maintainer": "Darko System Ind",
+      "platforms": [
+        {
+          "architecture": "samd",
+          "name": "Darko System Industries",
+          "category": "Darko System",
+          "version": "3.0",
+          "archiveFileName": "Darkosystem.zip",
+          "url": "https://github.com/Pedrinbeep/Darkosystem/blob/master/custom_board/Darkosystem.zip",
+          "checksum": "SHA-256:0d97166828ad8b6f85a91c75cbdb514e5c8bffeed6ca780c8f25521310dd6612",
+          "size": "2647892",
+          "boards": [
+            {
+              "name": "Darko System Hardware"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
